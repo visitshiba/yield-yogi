@@ -15,4 +15,6 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // 👇 Add this line for GitHub Pages (repo name)
+  base: "/yield-yogi/",
 }));
